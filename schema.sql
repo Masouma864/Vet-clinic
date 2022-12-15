@@ -7,31 +7,26 @@ CREATE TABLE animals (
     escape_attempts integer,
     neutered boolean,
     weight_kg decimal,
-    species varchar(100)
+    species varchar(100),
 );
 
--- Remove species from animal table
-ALTER TABLE animals DROP species;
-
--- Create  owners table
-DROP TABLE IF EXISTS owners;
 
 CREATE TABLE owners (
-    id BIGSERIAL ,
-    full_name CHAR(200),
-    age INT,
-    PRIMARY KEY (id)
+    id BIGSERIAL PRIMARY KEY,
+    full_name varchar(100),
+    age integer
 );
 
-
---  species table 
-
-DROP TABLE IF EXISTS species;
-
 CREATE TABLE species (
-    id BIGSERIAL ,
-    name CHAR(100),
-    PRIMARY KEY (id)
+    id BIGSERIAL PRIMARY KEY,
+    name varchar(100)
+);
+
+CREATE TABLE vets (
+    id BIGSERIAL PRIMARY KEY,
+    name varchar(100),
+    age integer,
+    date_of_graduation date
 );
 
 -- add species and owner to animal table,
