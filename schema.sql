@@ -33,3 +33,8 @@ CREATE TABLE species (
     name CHAR(100),
     PRIMARY KEY (id)
 );
+
+-- add species and owner to animal table,
+
+ALTER TABLE animals ADD COLUMN species_id INT;
+ALTER TABLE animals ADD COLUMN owners_id INT;
