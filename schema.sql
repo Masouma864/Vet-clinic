@@ -33,6 +33,13 @@ CREATE TABLE specializations (
     species_id integer,
     vet_id integer
 );
+
+CREATE TABLE visits (
+    animal_id int,
+    vet_id int,
+    date_of_visit date
+);
+
 -- add species and owner to animal table,
 
 ALTER TABLE animals ADD COLUMN species_id INT;
