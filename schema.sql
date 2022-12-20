@@ -49,3 +49,14 @@ ALTER TABLE animals ADD COLUMN owners_id INT;
 
 ALTER TABLE animals ADD CONSTRAINT fk_species FOREIGN KEY (species_id) REFERENCES species(id);
 ALTER TABLE animals ADD CONSTRAINT fk_owners FOREIGN KEY (owners_id) REFERENCES owners(id);
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+
+-- Indexing animals on visits
+create index animals_id_asc on visits(animal_id asc);
+-- Indexing vets_id on visits
+create index vet_id_asc on visits(vet_id asc);
+-- Indexing email on owners
+create index email_asc on owners(email asc);
