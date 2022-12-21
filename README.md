@@ -63,7 +63,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **DB name - vet_clinic**
+- **DB name - vet-clinic**
 
 - [ ] **How to create a database in POSTGRESQL**
 - [ ] **How to manage privileges for a user to a database or table**
@@ -93,7 +93,7 @@ Clone this repository to your desired folder:
 ```
 git clone https://github.com/Masouma864/Vet-clinic.git
 
-cd vet_clinic_database
+cd vet-clinic
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
