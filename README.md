@@ -1,6 +1,14 @@
-# Vet-clinic
+
 <a name="readme-top"></a>
 
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
@@ -46,12 +54,19 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors1 <a name="authors"></a>
 
-👤 **Masoum Modarresi**
+👤 **Masouma Modarresi**
 
-- GitHub: [@githubhandle](https://github.com/Masouma864)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/masouma-modarresi)
+- GitHub: [@masouma](https://github.com/Masouma864)
+- LinkedIn: [@masouma](https://www.linkedin.com/in/masouma-modarresi)
+
+👤 **Author2**
+👤 **Ekpenisi Erue Raphael**
+
+- GitHub: [@eerapheal](https://github.com/eerapheal)
+- Twitter: [@ekpenisiraphael](https://twitter.com/ekpenisiraphael)
+- LinkedIn: [ekpenisi-e-raphael-9678a221a](https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
