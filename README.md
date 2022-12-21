@@ -24,9 +24,30 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-**Vet Clinic Database** is a database to manage data stored for a vet clinic. It uses PostgreSQL
+# 📖 Vet Clinic Database <a name="about-project"></a>
+
+> - Created based on the popular SQL Relational Database using Postgresql.
+> - Learned The following concepts -:
+>   - What’s a database
+>   - What’s a relational database
+>   - What does SQL stand for
+>   - What’s POSTGRESQL
+>   - How to create a database in POSTGRESQL
+>   - What does DDL and DML stand for
+>   - How to CREATE or ALTER a table
+>   - How to SELECT data from a table
+>   - How to INSERT, UPDATE or DELETE data
+>   - What are subqueries
+>   - How to create a new POSTGRESQL user
+>   - How to manage privileges for a user to a database or table
+>   - What’s a PRIMARY KEY
+>   - What’s a FOREIGN KEY
+>   - How to use NOT NULL and UNIQUE constraints
+>   - How to retrieve datas from multiple tables in one request
+>   - What are subqueries
+>   - What are JOIN and UNION
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,9 +64,40 @@
 ### Key Features <a name="key-features"></a>
 
 - **DB name - vet_clinic**
-- **Tables - animals**
+
+- [ ] **How to create a database in POSTGRESQL**
+- [ ] **How to manage privileges for a user to a database or table**
+- [ ] **What does DDL and DML stand for**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+
+
+### Prerequisites
+
+In order to run this project you need:
+
+> - Git
+> - IDE(e.g.: VsCode, Sublime,...)
+> - Proficiency in the use of SQL QUERIES
+> - Install Postgresql
+> 
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+git clone https://github.com/Masouma864/Vet-clinic.git
+
+cd vet_clinic_database
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -70,6 +122,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -77,6 +131,8 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
