@@ -60,3 +60,10 @@ create index animals_id_asc on visits(animal_id asc);
 create index vet_id_asc on visits(vet_id asc);
 -- Indexing email on owners
 create index email_asc on owners(email asc);
+
+
+-- schema_based_on_diagram
+
+create index patient_id_medical_histories on medical_histories(patient_id);
+create index invoices_medical_histories on invoices(medical_history_id);
+create index invoice_items_treatment_id on invoice_items(treatment_id);

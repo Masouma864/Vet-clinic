@@ -47,6 +47,12 @@
 >   - How to retrieve datas from multiple tables in one request
 >   - What are subqueries
 >   - What are JOIN and UNION
+>   - schema based on diagram
+
+
+## Diagram Picture
+     Vet_clinic_diagram.PNG
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
