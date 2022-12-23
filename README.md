@@ -50,6 +50,11 @@
 >   - schema based on diagram
 
 
+## Diagram Picture
+     Vet_clinic_diagram.PNG
+
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
